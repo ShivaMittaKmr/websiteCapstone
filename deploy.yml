@@ -1,4 +1,3 @@
-Create deploy.yml file
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -17,8 +16,6 @@ spec:
     spec:
       containers:
       - name: custom
-        image: docker6767/image
+        image: shivamitta/myfirstrepo
         ports:
         - containerPort: 80
-
-
